@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>type writer</title>
+  <style>
+    HTML CSSResult
+    EDIT ON
+
+    /* Global */
+    html{
+      min-height: 100%;
+      overflow: hidden;
+    }
+    body{
+      height: calc(100vh - 20em);
+      padding: 4em;
+      color: rgba(255,255,255,.75);
+      font-family: Consolas;
+      background-image: url("main_index.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+    .line-1{
+      position: relative;
+      top: 20%;
+      width: 24em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255,255,255,.75);
+      font-size: 30px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+    }
+
+    /* Animation */
+    .anim-typewriter{
+      animation: typewriter 3s steps(35) 1s 1 normal both,
+      blinkTextCursor 500ms steps(35) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 22em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
+  </style>
+</head>
+<body>
+<p class="line-1 anim-typewriter">WELCOME TO THE KINGDOM OF THAMBAPANNI..</p>
+
+<!--<script type="text/javascript">
+  window.setTimeout(function () {
+    window.location.href = "https://www.google.co.in";
+  }, 4000);
+</script>-->
+
+</body>
+</html>

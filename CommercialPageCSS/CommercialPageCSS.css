@@ -1,0 +1,478 @@
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+}
+
+/*header citainer*/
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 510px 145px;
+  font-weight: bold;
+  grid-gap: 2px;
+}
+.container > div{
+  text-align: center;
+  padding: 20px;
+}
+
+/*navigation bar*/
+#navBar{
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr 1fr 1fr 1fr 1fr 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-column-gap: 20px;
+  padding: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.9) , rgba(0, 0, 0, 0));
+  position: fixed;
+  transition: 0.5s;
+  z-index: 1;
+  height: 100px;
+}
+
+#logo{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 100px;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 30px;
+}
+#logo a{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+#logo img{
+  height: 60px;
+  width: 60px;
+}
+#home{
+  grid-column: 2/3;
+  padding-top: 43px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: inherit;
+  margin: 0;
+}
+#destinations{
+  top: 50px;
+  grid-column: 3/4;
+}
+.dropbtn{
+  position: relative;
+  top: 45px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+  font-family: inherit;
+  margin: 0;
+}
+#dropdown-content-destinations a{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  top: 63px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+a:hover, .dropbtn:hover {
+  background-color: inherit;
+  color: #ffcc00;
+}
+
+#destinations:hover #dropdown-content-destinations a{
+  visibility: visible;
+  color: #ffcc00;
+}
+#activities{
+  grid-column: 4/5;
+}
+#dropdown-content-activities{
+  visibility: hidden;
+  display: block;
+  height: 100px;
+}
+#dropdown-content-activities a{
+  display: block;
+  position: absolute;
+  top: 63px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#activities:hover #dropdown-content-activities{
+  visibility: visible;
+  color: #ffcc00;
+}
+#shop{
+  grid-column: 5/6;
+}
+#gallery{
+  grid-column: 6/7;
+}
+#sitemap{
+  grid-column: 7/8;
+}
+#quickview{
+  grid-column: 8/9;
+  font-size: 15px;
+}
+#home, #shop, #gallery, #sitemap{
+  font-size: 15px;
+  padding-top: 45px;
+  text-decoration: none;
+  color: white;
+}
+#dropdown-content-quickview{
+  visibility: hidden;
+  display: block;
+  height: 100px;
+}
+#dropdown-content-quickview a{
+  display: block;
+  position: absolute;
+  top: 63px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#quickview:hover #dropdown-content-quickview{
+  visibility: visible;
+}
+#login{
+  grid-column: 14/15;
+}
+#cart{
+  grid-column: 13/14;
+}
+#favo{
+  grid-column: 12/13;
+}
+#favo:hover, #cart:hover, #login:hover{
+  border-bottom: 5px solid #cc9900;
+}
+#favo, #cart, #login{
+  cursor: pointer;
+  height: 100px;
+}
+.logos{
+  height: 100px;
+  width: 30px;
+  position: relative;
+  bottom: 1px;
+}
+#toolTipFav, #toolTipCart, #toolTipLog{
+  visibility: hidden;
+  border: 1px solid #000000;
+  width: 100px;
+  background-color: rgba(204, 204, 204, 0.5);
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -60%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 1s;
+  box-shadow: 1px 1px 3px #000000;
+}
+#toolTipFav{
+  right: 163px;
+}
+#toolTipCart{
+  right: 78px
+}
+#toolTipLog{
+  right: 1px;
+}
+#favo:hover #toolTipFav, #cart:hover #toolTipCart, #login:hover #toolTipLog {
+  visibility: visible;
+  opacity: 1;
+}
+.test{
+  transition: 0.3s;
+}
+.test1{
+  background-image: linear-gradient(black, white);
+  transition: 0.3s;
+}
+
+/*header area*/
+#header-bg{
+  grid-column: 1/5;
+  background-image: url("nippaBg.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: "Century Gothic";
+  color: white;
+  font-size: 100px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#some-txt{
+  grid-column: 1/5;
+}
+
+#header{
+  grid-column: 1/5;
+  text-align: left;
+  font-size: 15px;
+  padding: 0 0 10px 10px;
+  background-color: #ffd11a;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+}
+
+
+/*product area*/
+#productArea{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 300px;
+  grid-gap: 10px;
+  margin: 0 40px 0 40px;
+  border: 3px dotted #ffd11a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#productArea > div{
+  text-align: center;
+  padding: 0;
+}
+#productHeader{
+  grid-column: 1/6;
+  font-size: 60px;
+  background-color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+#product1,#product2,#product3,#product4,#product5,#product6{
+  border-radius: 11px;
+/*  background-color: goldenrod;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+#product1{
+  grid-column: 1/2;
+  opacity: 1;
+  cursor: pointer;
+  background-image: url("products/cusion-cover.jpg");
+}
+#product2{
+  grid-column: 2/3;
+  cursor: pointer;
+  background-image: url("products/hand-loom-box-purse.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#product3{
+  grid-column: 3/4;
+  cursor: pointer;
+  background-image: url("products/hand-loom-owl.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#product4{
+  grid-column: 4/5;
+  cursor: pointer;
+  background-image: url("products/hand-loom-starfish.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#product5{
+  grid-column: 5/6;
+  cursor: pointer;
+  background-image: url("products/hand-loom-purse.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.description{
+  color: white;
+  font-size: 23px;
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 200px;
+  padding: 70px 0 30px 0;
+  border-radius: 10px;
+}
+.price{
+  color: #ffffff;
+  font-size: 18px;
+}
+.addToCart{
+  border: 2px solid #ffd11a;
+  border-radius: 2px;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ffd11a;
+  font-weight: bold;
+}
+.addToCart:hover{
+  background-color: #ffd11a;
+  color: black;
+}
+#product1:hover, #product2:hover, #product3:hover, #product4:hover, #product5:hover{
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.7);
+}
+#product1:hover .description, #product2:hover .description, #product3:hover
+.description, #product4:hover .description, #product5:hover .description{
+  opacity: 1;
+}
+
+/*category area*/
+#categoryArea{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 150px 200px 200px 200px;
+  grid-gap: 25px;
+  margin: 0 100px 100px 100px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#categoryArea > div{
+  text-align: center;
+  transition: all .3s ease-in-out;
+  background-repeat: no-repeat;
+}
+
+#label{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 3px #000000;
+}
+#leather{
+  grid-column: 2/4;
+  grid-row: 2/4;
+  padding-top: 160px;
+  background-image: url("image.jpg");
+  background-size: 145%;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 0 10px 0 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+#boutique{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-top: 50px;
+  background-image: url("Category-fabrics.jpg");
+  background-size: 100%;
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 10px 0 0 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+#crafts{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding-top: 50px;
+  background-image: url("arts-crafts.jpg");
+  background-size: 100%;
+  font-size: 45px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+#gem{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  padding-top: 50px;
+  background-image: url("image.jpg");
+  background-size: 100%;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 0 0 0 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+#tea{
+  grid-column: 2/4;
+  grid-row: 4/5;
+  padding-top: 50px;
+  font-size: 45px;
+  background-image: url("unnamed.jpg");
+  background-size: 100%;
+  cursor: pointer;
+  border-radius: 0 0 10px 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#boutique:hover, #crafts:hover, #gem:hover, #tea:hover{
+  background-size: 101%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.7);
+}
+#leather:hover{
+  background-size: 146%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.7);
+}
+/*#antique:hover p{
+  font-size: 55px;
+  width: 100px;
+}*/
+#boutique:hover .cateNameReg, #crafts:hover .cateNameReg, #leather:hover .cateNameReg,
+#gem:hover .cateNameReg, #tea:hover .cateNameReg{
+  width: 450px;
+}
+.cateNameReg{
+  width: 350px;
+  height: 60px;
+  align-items: stretch;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: 0.5s;
+  padding: 20px 0 20px 0;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.cateNameReg p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+something*/
+.something{
+  height: 300px;
+  width: 100%;
+  background-color: #ffd11a;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+.something p{
+  position: relative;
+  top: 140px;
+}

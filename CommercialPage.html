@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Commercial Page</title>
+    <link rel="stylesheet" type="text/css" href="CommercialPageCSS/CommercialPageCSS.css">
+    <link rel="stylesheet" type="text/css" href="CommercialPageCSS/ScrollDown.css">
+    <link rel="stylesheet" type="text/css" href="CommercialPageCSS/SlideView.css">
+    <link rel="stylesheet" type="text/css" href="CommercialPageCSS/SignupForm.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!--nav bar-->
+    <div id="navBar">
+      <!-- <div id="header"><a href="mailto:nipun.2019268@iit.ac.lk">nipun.2019268@iit.ac.lk</a></div>-->
+      <div id="home">Home</div>
+      <div class="dropdown" id="destinations">
+        <button class="dropbtn">DESTINATIONS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="dropdown-content-destinations">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown" id="activities">
+        <button class="dropbtn">ACTIVITIES
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="dropdown-content-activities">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="#shop" id="shop">SHOP</a>
+      <a href="#shop" id="gallery">GALLERY</a>
+      <a href="#sitemap" id="sitemap">SITEMAP</a>
+      <div class="dropdown" id="quickview">
+        <button class="dropbtn">QUICK VIEW
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="dropdown-content-quickview">
+          <a href="#topDest">Top destination</a>
+          <a href="#bestAct">Best activities</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div id="logo"><a href="#"><img src="CommercialPageCSS/logoWhite.png"></a></div>
+    </div>
+    <!--nav bar end-->
+
+    <!--header-->
+    <div id="header-bg">
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+    </div>
+    <!--header end-->
+    <div id="some-txt"></div>
+  </div>
+
+  <!--category area-->
+  <div id="categoryArea">
+    <div id="label"><p>Choose by Category</p></div>
+    <div id="boutique" onclick="category(1)"><div class="cateNameReg">Clothing, Fabrics and Accessories</div></div>
+    <div id="crafts" onclick="category(2)"><div class="cateNameReg">Art & Craft</div></div>
+    <div id="leather" onclick="category(3)"><div class="cateNameReg">Leather & Ceramic</div></div>
+    <div id="gem" onclick="category(4)"><div class="cateNameReg">Gem & Jewellery</div></div>
+    <div id="tea" onclick="category(5)"><div class="cateNameReg">Tea & Spices</div></div>
+  </div>
+  <!--category area end-->
+
+<!--  top trending products-->
+  <div id="productArea">
+    <div id="productHeader">
+      <p id="categoryName">Clothing & Fabric</p>
+    </div>
+
+    <div id="product1">
+      <div class="description" onclick="slide(1); my(1)">
+        <p id="product1-name">CUSHION COVER</p>
+        <p id="product1-price" class="price">$ 8</p>
+        <p><button id="add1" class="addToCart" onclick="document.getElementById('id01').style.display = 'block'">BUY NOW</button></p>
+      </div>
+    </div>
+
+    <div id="product2" onclick="openModal(); currentSlide(2)">
+      <div class="description">
+        <p id="product2-name">HAND LOOM<br>BOX PURSE</p>
+        <p id="product2-price" class="price">$ 5</p>
+        <p><button id="add2" class="addToCart" onclick="document.getElementById('id01').style.display='block'">BUY NOW</button></p>
+      </div>
+    </div>
+    <div id="product3" onclick="openModal(); currentSlide(3)">
+      <div class="description">
+        <p id="product3-name">HAND LOOM<br>OWL</p>
+        <p id="product3-price" class="price"># 5</p>
+        <p><button id="add3" class="addToCart" onclick="document.getElementById('id01').style.display='block'">BUY NOW</button></p>
+      </div>
+    </div>
+    <div id="product4" onclick="openModal(); currentSlide(4)">
+      <div class="description">
+        <p id="product4-name">HAND LOOM<br>STARFISH</p>
+        <p id="product4-price" class="price">$ 6</p>
+        <p><button id="add4" class="addToCart" onclick="document.getElementById('id01').style.display='block'">BUY NOW</button></p>
+      </div>
+    </div>
+    <div id="product5" onclick="openModal(); currentSlide(5)">
+      <div class="description">
+        <p id="product5-name">HAND LOOM<br>PURSE</p>
+        <p id="product5-price" class="price">$ 6</p>
+        <p><button id="add5" class="addToCart" onclick="document.getElementById('id01').style.display='block'">BUY NOW</button></p>
+      </div>
+    </div>
+  </div>
+<!--  top trending products end-->
+
+  <!--slide view-->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <img id="product1-modal" src="team3.jpg" style="width:50%">
+        <p class="product-title" id="product1-title">ajbdujjqejb<br></p>
+        <p class="product-des" id="product1-des">bshfbjsefsbljalasdnjsbfsjbsbkm<br>bascbahbajmbjm</p>
+      </div>
+
+      <div class="mySlides">
+        <img src="team3.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="team3.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="team3.jpg" style="width:50%">
+      </div>
+
+    </div>
+  </div>
+
+<!--sign up form-->
+  <div id="id01" class="modal1">
+    <span onclick="document.getElementById('id01').style.display='none'; document.getElementById('myModal').style.display = 'none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal1-content" id="myForm">
+      <div class="container1">
+        <h1>Check Out</h1>
+        <p>Please fill in this form to complete purchase.</p>
+        <hr>
+        <label for="name"><b>Full Name</b></label>
+        <input id="name" type="text" placeholder="Your Full Name" name="name" required>
+
+        <label for="address"><b>Address</b></label>
+        <input id="address" type="text" placeholder="Your Address" name="address" required>
+
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="email" placeholder="ex: example@email.com" name="email" required>
+
+        <label for="tele"><b>Telephone</b></label>
+        <input id="tele" type="tel" placeholder="ex: 077XXXXXXX" name="telephone" required>
+
+        <label for="additional"><b>Additional Information</b></label>
+        <textarea id="additional"  name="telephone"></textarea>
+
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn" onclick="confirmation()">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+<!--sign up for end-->
+
+  <!--slide view end-->
+
+  <div class="something">
+    <p>Footer...</p>
+  </div>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    var btn = document.getElementById('add1');
+    var des = document.getElementById('product1');
+
+    // When the user clicks anywhere outside of the modal, close it
+
+    function sign(event) {
+      event.stopPropagation();
+    }
+
+    function slide(id) {
+      openModal();
+      currentSlide(id);
+    }
+
+    function modalChange() {
+      document.getElementById("product1-model").src = "CommercialPageCSS/products/cusion-cover.jpg";
+    }
+
+    function my(x) {
+      if (x === 1) {
+        var image = document.getElementById("product1").src;
+        console.log(image);
+        document.getElementById("product1-model").src = image;
+      }
+    }
+
+  </script>
+  <script rel="script" src="CommercialPageCSS/CommercialPageJS.js"></script>
+  <script rel="script" src="CommercialPageCSS/3-script.js"></script>
+  <script rel="script" src="CommercialPageCSS/SlideView.js"></script>
+</body>
+</html>

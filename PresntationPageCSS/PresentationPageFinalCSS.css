@@ -1,0 +1,77 @@
+body{
+  background-image: url("aboutUsBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cards{
+  display: grid;
+  grid-template-areas:
+    "manoj nimendra nipun janith"
+    "manoj nimendra nipun janith";
+  grid-gap: 20px;
+  text-align: left;
+  height: 340px;
+  width: 96%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+#manoj{
+  grid-area: manoj;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 19px;
+  background-image: url("team1b.jpg");
+  background-size: cover;
+}
+
+#nimendra{
+  grid-area: nimendra;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-image: url("team1b.jpg");
+  background-size: cover;
+}
+
+#nipun{
+  grid-area: nipun;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-image: url("team1b.jpg");
+  background-size: cover;
+}
+
+#janith{
+  grid-area: janith;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-image: url("team1b.jpg");
+  background-size: cover;
+
+}
+
+#container{
+  width: 100%;
+}
+
+.card-header{
+  position: absolute;
+  width: 274px;
+  height: 110px;
+  padding: 20px 0 0 10px;
+  z-index: 5;
+  text-shadow: 1px 1px 2px darkgoldenrod, 0 0 15px white, 0 0 2px white;
+  font-size: 20px;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 10px;
+}

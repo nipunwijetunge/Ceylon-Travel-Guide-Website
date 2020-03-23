@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c55cc63-4129-4b1f-9605-924b6e670158" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/WDD CW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/Ayurveda_1920x700-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/Category-fabrics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/CommercialPageCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/CommercialPageJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/ScrollDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/SignupForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/SlideView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/SlideView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/arts-crafts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/favo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/granite-statue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/image (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/istockphoto-504522702-612x612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/kolam-mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/laquared-cakebox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/logoBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/logoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/nippaBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/art/granite-statue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/art/kolam-mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/art/laquared-cakebox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/art/pulp-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/art/wooden-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/cusion-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/gem/blue-topaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/gem/lemon-quartz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/gem/silver-necklace-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/gem/silver-necklace-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/gem/silver-neclace-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/hand-loom-box-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/hand-loom-owl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/hand-loom-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/hand-loom-starfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/leather/ceramic-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/leather/ceramic-pen-holder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/leather/leather-humpty-oval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/leather/leather-side-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/leather/leather-travelling-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/tea/black-pepper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/tea/ceylon-tea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/tea/cinnamon-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/tea/coriander-seeds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/products/tea/spices-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/pulp-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/shop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/tshirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/whatisayurveda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommercialPageCSS/wooden-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageFinal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/@.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/Presentation_page_SS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/aboutUsBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/header-2-tab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/ig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresentationPageTest/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresntationPageCSS/PresentationPageFinalCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresntationPageCSS/aboutUsBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresntationPageCSS/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PresntationPageCSS/team1b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/MainJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/ProductsPageCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/ProductsPageJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/ScrollDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/SignupForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/ceramic-pen-holder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/ceylon-tea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/cinnamon-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/cusion-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/fontSIzeChanger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/fontSizerChanger.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/granite-statue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/hand-loom-box-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/hand-loom-owl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/hand-loom-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/laquared-cakebox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/leather-humpty-oval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/leather-side-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/leather-travelling-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/logoBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/logoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/nippaBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/pulp-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/silver-necklace-1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/silver-necklace-1 (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/silver-necklace-1 (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/siteMapPageBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/social1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/social2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/social2hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/social3hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/spices-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductPage/wooden-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WDD CW.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black-pepper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blue-topaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceramic-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceramic-pen-holder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ceylon-tea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinnamon-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coriander-seeds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cusion-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/granite-statue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-loom-box-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-loom-owl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-loom-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand-loom-starfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kolam-mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laquared-cakebox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leather-humpty-oval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leather-side-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leather-travelling-bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lemon-quartz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentation_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pulp-elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/silver-necklace-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/silver-necklace-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/silver-neclace-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spices-pack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tshirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wooden-elephant.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1X44zEKgByl4iXaGxYBumgXtedX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProductPage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\PhpstormProjects\WDD CW\ProductPage\ProductPage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\PhpstormProjects\WDD CW\ProductPage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CommercialPageJS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/CommercialPageCSS/CommercialPageJS.js" working-dir="$PROJECT_DIR$/CommercialPageCSS">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.CommercialPageJS.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c55cc63-4129-4b1f-9605-924b6e670158" name="Default Changelist" comment="" />
+      <created>1580292293020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580292293020</updated>
+      <workItem from="1580292296835" duration="14420000" />
+      <workItem from="1580393061862" duration="14189000" />
+      <workItem from="1580493503496" duration="11219000" />
+      <workItem from="1580535308671" duration="34846000" />
+      <workItem from="1580747142914" duration="1274000" />
+      <workItem from="1580749939480" duration="3295000" />
+      <workItem from="1580791772665" duration="1133000" />
+      <workItem from="1581262054871" duration="6892000" />
+      <workItem from="1581825482787" duration="14846000" />
+      <workItem from="1581942077566" duration="12433000" />
+      <workItem from="1582031377661" duration="6164000" />
+      <workItem from="1582124332598" duration="6420000" />
+      <workItem from="1582177703708" duration="18151000" />
+      <workItem from="1582515800684" duration="38739000" />
+      <workItem from="1582688167322" duration="7382000" />
+      <workItem from="1584636534280" duration="604000" />
+      <workItem from="1584676560707" duration="45042000" />
+      <workItem from="1584762659826" duration="51186000" />
+      <workItem from="1584842600155" duration="55925000" />
+      <workItem from="1584939646122" duration="14442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584770471233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584770471233" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581264339543">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581264339543" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1584939704878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584939704878" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584867758075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584867758075" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584897790751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584897790751" />
+  </component>
+</project>
